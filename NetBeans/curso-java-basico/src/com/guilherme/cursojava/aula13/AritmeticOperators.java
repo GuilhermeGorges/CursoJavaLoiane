@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.guilherme.cursojava.aula13;
 
-/**
- *
- * @author Gui e Di
- */
+import java.util.Scanner;
 public class AritmeticOperators {
     
+    public static void main(String[] args) {
+        /*
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite os numeros a serem somados");
+        int first = scan.nextInt();
+        int second = scan.nextInt();
+        System.out.println("O resultado da soma dos numeros " + first + " e " + second + " é = " + (first + second));
+        */
+        // os mesmos que do python, mas possue tambem ++ e -- (incremento e decremento)
+    }
 }
