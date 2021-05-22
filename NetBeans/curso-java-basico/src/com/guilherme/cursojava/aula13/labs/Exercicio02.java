@@ -5,12 +5,20 @@
  */
 package com.guilherme.cursojava.aula13.labs;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Gui e Di
  */
-public class Exercicio01 {
+public class Exercicio02 {
     public static void main(String[] args) {
-        System.out.println("Olá Mundo!");
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Write a number: ");
+        int number = scan.nextInt();
+
+        System.out.println("O numero dígitado foi = " + number);
+        
     }
 }

@@ -9,8 +9,6 @@ package com.guilherme.cursojava.aula13.labs;
  *
  * @author Gui e Di
  */
-public class Exercicio01 {
-    public static void main(String[] args) {
-        System.out.println("Olá Mundo!");
-    }
+class Scaneer {
+    
 }
