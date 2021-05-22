@@ -25,10 +25,10 @@ public class Exercicio13 {
         double salary = workedHour * hourlyValue;
         System.out.println("Seu salário bruto no mês é R$ " + salary);
         
-        double inss = salary*0.11;
+        double inss = salary*0.08;
         System.out.println("Voce pagou de INSS R$ "+ inss);
         
-        double impostoRenda = salary*0.08;
+        double impostoRenda = salary*0.11;
         System.out.println("Voce pagou de IR R$ "+ impostoRenda);
         
         double sindicato = salary*0.05;

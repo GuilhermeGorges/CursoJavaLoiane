@@ -21,9 +21,9 @@ public class Exercicio11 {
         int second = scan.nextInt();
         float third = scan.nextFloat();
         
-        double answerA = (first * first) * (second / 2);
+        double answerA = (first * 2) * (second / 2);
         double answerB = (first * 3) + third;
-        double answerC = third * third * third;
+        double answerC = Math.pow (third, 3);
         
         System.out.println("Resposta A: "+ answerA);
         System.out.println("Resposta B: "+ answerB);

@@ -21,9 +21,7 @@ public class Exercicio14 {
         System.out.println("Digite a velocidade de download do arquivo em Mbp/s: ");
         double velocidadeDownload = scan.nextDouble();
               
-        double velSegundos = tamanhoDoArquivo / (velocidadeDownload/8);
-        
-        double velMinutos = velSegundos / 60;
+        double velMinutos = tamanhoDoArquivo / velocidadeDownload;
         
         System.out.println("O download levará " + velMinutos + " Minutos.");
         
