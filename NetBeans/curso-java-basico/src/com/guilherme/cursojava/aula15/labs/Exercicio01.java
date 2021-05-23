@@ -1,16 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.guilherme.cursojava.aula15.labs;
 
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
-/**
- *
- * @author Gui e Di
- */
 public class Exercicio01 {
-    
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite dois numeros: ");
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        
+        if (num1 > num2) {
+            System.out.println("O numero maior é o numero "+ num1);
+        } else if (num1 < num2) {
+            System.out.println("O numero maior é o numero"+ num2);
+        } else {
+            System.out.println("Os valores são iguais");
+        }
+        
+        
+        
+    }
 }
