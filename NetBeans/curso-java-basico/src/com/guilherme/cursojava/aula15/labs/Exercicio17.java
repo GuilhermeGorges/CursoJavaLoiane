@@ -41,6 +41,13 @@ public class Exercicio17 {
                 System.out.println(ano + " não é um ano BISEXTO");
             }
         
+        
+        if ((ano % 400 == 0) || (ano % 4 == 0 && ano % 100 != 0)){
+                System.out.println(ano + " é um ano BISEXTO");
+        } else {
+                
+                System.out.println(ano + " não é um ano BISEXTO");
+            }
     }
     
 }

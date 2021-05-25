@@ -25,7 +25,7 @@ public class Exercicio22 {
             precoMorango = morango * 2.2;            
         }
         
-        System.out.println("Digite quantos KG de MORANGO você quer: ");
+        System.out.println("Digite quantos KG de MACA você quer: ");
         double maca = scan.nextDouble();
         double precoMaca = 0;
         if (maca < 5){
@@ -49,8 +49,8 @@ public class Exercicio22 {
             System.out.println("Você comprou " + maca + " KG de MACAS");
             System.out.println("O valor a ser pago é de R$ "+ valorTotal); 
         }
-        
-        
-        
-        
+
+    }
 }
+      
+        
