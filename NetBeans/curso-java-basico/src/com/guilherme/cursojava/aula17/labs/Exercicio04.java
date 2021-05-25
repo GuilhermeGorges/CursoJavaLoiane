@@ -6,13 +6,30 @@
  */
 package com.guilherme.cursojava.aula17.labs;
 
-import com.guilherme.cursojava.aula15.labs.*;
-import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
-/**
- *
- * @author Gui e Di
- */
 public class Exercicio04 {
-    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        int countryA = 80000;
+        int countryB = 200000;
+        int counterYears = 0;
+        
+        
+        while (countryA <= countryB){
+            countryA += (countryA * 0.03);
+            
+            countryB += (countryB * 0.015);
+            
+            counterYears++;
+        }
+        
+        System.out.println("O pais A atingiu a população do pais B com " + counterYears + " anos.");
+        System.out.println("O pais A estava com a populçação de "+ countryA + " habitantes.");
+        System.out.println("O pais B estava com a populçação de "+ countryB + " habitantes.");
+        
+        
+        
+    }
 }

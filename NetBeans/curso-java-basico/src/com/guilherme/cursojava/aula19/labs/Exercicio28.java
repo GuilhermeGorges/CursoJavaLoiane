@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.guilherme.cursojava.aula15.labs;
+package com.guilherme.cursojava.aula19.labs;
 
+import com.guilherme.cursojava.aula17.labs.*;
+import com.guilherme.cursojava.aula15.labs.*;
 import com.guilherme.cursojava.aula13.labs.*;
-import java.util.Scanner;
 
 /**
  *
  * @author Gui e Di
  */
-public class Exercicio23 {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        
-        
-    }
+public class Exercicio28 {
+    
 }
