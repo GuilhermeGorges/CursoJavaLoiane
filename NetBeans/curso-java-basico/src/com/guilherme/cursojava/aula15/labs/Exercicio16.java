@@ -6,6 +6,7 @@
 package com.guilherme.cursojava.aula15.labs;
 
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
@@ -13,4 +14,10 @@ import com.guilherme.cursojava.aula13.labs.*;
  */
 public class Exercicio16 {
     
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        
+        
+    }
 }

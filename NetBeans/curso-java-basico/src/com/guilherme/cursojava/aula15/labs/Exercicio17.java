@@ -6,11 +6,41 @@
 package com.guilherme.cursojava.aula15.labs;
 
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
  * @author Gui e Di
  */
 public class Exercicio17 {
+    
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Digite o ano: ");
+        int ano = scan.nextInt();
+        
+        if (ano%4 == 0){
+            if (ano%100 != 0){
+                
+                System.out.println(ano + " é um ano BISEXTO");
+                
+            } else {
+                if (ano%400 == 0){
+                    
+                System.out.println(ano + " é um ano BISEXTO");
+                
+                } else {
+
+                    System.out.println(ano + " não é um ano BISEXTO");
+                }
+            }
+        } else {
+                
+                System.out.println(ano + " não é um ano BISEXTO");
+            }
+        
+    }
     
 }

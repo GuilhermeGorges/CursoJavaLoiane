@@ -6,6 +6,7 @@
 package com.guilherme.cursojava.aula15.labs;
 
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
@@ -13,4 +14,18 @@ import com.guilherme.cursojava.aula13.labs.*;
  */
 public class Exercicio18 {
     
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Digite o numero: ");
+        int num = scan.nextInt();
+        
+        if (num%2 == 0){
+            System.out.println(num + " É par!");
+        } else {
+            System.out.println(num + " Não é par");
+        }
+    }
 }
+    
