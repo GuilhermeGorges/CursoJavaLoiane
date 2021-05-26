@@ -1,17 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.guilherme.cursojava.aula17.labs;
 
-import com.guilherme.cursojava.aula15.labs.*;
-import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
-/**
- *
- * @author Gui e Di
- */
 public class Exercicio13 {
-    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Entre com a base:");
+        int base = scan.nextInt();
+        
+        
+        System.out.println("Entre com a potência:");
+        int pot = scan.nextInt();
+        
+        int resultado = base;
+        
+        for (int i=1; i<pot; i++){
+            resultado *= base; 
+        }
+        System.out.println("Resultado: "+resultado);
+    }
 }
