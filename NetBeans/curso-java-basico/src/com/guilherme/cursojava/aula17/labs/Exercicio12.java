@@ -7,11 +7,28 @@ package com.guilherme.cursojava.aula17.labs;
 
 import com.guilherme.cursojava.aula15.labs.*;
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
  * @author Gui e Di
  */
 public class Exercicio12 {
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        int tabuada;
+        System.out.println("Digite a tabuada que você quer ver");
+        int num = scan.nextInt();
+        
+        System.out.println("Tabuada de "+ num + ":");
+        for (int i = 1 ; i < 11 ; i++){
+            tabuada = i * num;
+            System.out.println(num + " x " + i + " = " + tabuada);
+        }
+        
+     
+        
+    }
     
 }

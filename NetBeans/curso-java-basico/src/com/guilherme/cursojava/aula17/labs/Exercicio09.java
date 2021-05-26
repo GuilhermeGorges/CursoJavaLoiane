@@ -5,13 +5,15 @@
  */
 package com.guilherme.cursojava.aula17.labs;
 
-import com.guilherme.cursojava.aula15.labs.*;
-import com.guilherme.cursojava.aula13.labs.*;
-
 /**
  *
  * @author Gui e Di
  */
 public class Exercicio09 {
-    
+    public static void main(String[] args) {
+        
+        for (int i = 1; i < 50; i+=2){
+            System.out.print(i+ ">");
+        }
+    }
 }

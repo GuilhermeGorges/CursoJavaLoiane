@@ -5,13 +5,27 @@
  */
 package com.guilherme.cursojava.aula17.labs;
 
-import com.guilherme.cursojava.aula15.labs.*;
-import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
-/**
- *
- * @author Gui e Di
- */
 public class Exercicio11 {
+        public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        int soma = 0;
+        System.out.println("Digite onde a contagem deverá iniciar");
+        int start = scan.nextInt();
+        
+        
+        System.out.println("Digite onde a contagem deverá terminar");
+        int end = scan.nextInt();
+        
+        for ( ;start < end; start++){
+            System.out.print(start);
+            soma += start;
+        }
+        
+        System.out.println("O resultado da soma destes valores é de: "+ soma);
+    }
+    
     
 }
