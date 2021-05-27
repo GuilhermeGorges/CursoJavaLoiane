@@ -29,11 +29,11 @@ public class Exercicio20 {
         mediaIdade = somaIdade/pessoas;
         
         if (mediaIdade < 26){
-            System.out.println("A media de idade da turma é de "+ somaIdade +" anos e a turma é jovem.");
+            System.out.println("A media de idade da turma é de "+ mediaIdade +" anos e a turma é jovem.");
         } else if (mediaIdade < 60){
-            System.out.println("A media de idade da turma é de "+ somaIdade +" anos e a turma é adulta.");
+            System.out.println("A media de idade da turma é de "+ mediaIdade +" anos e a turma é adulta.");
         } else {
-            System.out.println("A media de idade da turma é de "+ somaIdade +" anos e a turma é idosa.");
+            System.out.println("A media de idade da turma é de "+ mediaIdade +" anos e a turma é idosa.");
         }
     }
 }

@@ -7,11 +7,20 @@ package com.guilherme.cursojava.aula17.labs;
 
 import com.guilherme.cursojava.aula15.labs.*;
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
  * @author Gui e Di
  */
 public class Exercicio24 {
+    public static void main(String[] args) {
+     
+        System.out.println("O preço do pão: R$ 0.18");
+        System.out.println("Panificadora Pão de Ontem - Tabela de Preços");
+        for (int i=1; i<=50; i++){
+            System.out.println(i + " - R$ " + (0.18*i));
+        }
+    }
     
 }
