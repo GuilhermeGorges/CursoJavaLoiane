@@ -13,5 +13,22 @@ import com.guilherme.cursojava.aula13.labs.*;
  * @author Gui e Di
  */
 public class Exercicio11 {
-    
+    public static void main(String[] args) {
+        
+        int counter = 0; 
+        
+        int[] a = new int[10];
+        for (int i = 0; i < 10; i++){
+            a[i] = i;
+            if (a[i]%2 == 0){
+                counter += 1; 
+            }
+        }
+        
+        for (int i = 0; i < 10; i++){
+        System.out.print("A = " + a[i]+ " ");
+        }
+        
+        System.out.println("\nNo array A "+counter+" Numeros são pares.");
+    }        
 }

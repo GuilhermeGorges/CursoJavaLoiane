@@ -13,5 +13,20 @@ import com.guilherme.cursojava.aula13.labs.*;
  * @author Gui e Di
  */
 public class Exercicio01 {
-    
+    public static void main(String[] args) {
+        int[] a = new int[5];
+        for (int i = 0; i < 5; i++){
+            a[i] = i;
+        }
+        
+        int[] b = new int[5];
+        for (int i = 0; i < 5; i++){
+            b[i] = a[i];
+        }
+        
+        for (int i = 0; i < 8; i++){
+        System.out.print("A = "+a[i]);
+        System.out.print(" B = "+b[i]+"\n");
+        }
+    }
 }
