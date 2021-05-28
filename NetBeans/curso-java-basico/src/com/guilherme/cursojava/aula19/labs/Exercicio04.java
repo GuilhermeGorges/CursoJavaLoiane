@@ -18,16 +18,14 @@ public class Exercicio04 {
     public static void main(String[] args) {
         
         int[] a = new int[15];
-        for (int i = 0; i < 15; i++){
+        double[] b = new double[a.length];
+        for (int i = 0; i < a.length; i++){
             a[i] = i;
+            b[i] = sqrt(a[i]);
         }
         
-        int[] b = new int[15];
-        for (int i = 0; i < 15; i++){
-            b[i] = (int) sqrt(a[i]);
-        }
         
-        for (int i = 0; i < 15; i++){
+        for (int i = 0; i < a.length; i++){
         System.out.print("A = "+a[i]);
         System.out.print(" B = "+b[i]+"\n");
         }

@@ -23,8 +23,8 @@ public class Exercicio14 {
         for (int i = 0; i < 10; i++){
             a[i] = i;
             if (a[i]%2 != 0){
-                counter += 1;
-                soma += i;
+                counter++;
+                soma += a[i];
             }
         }
         

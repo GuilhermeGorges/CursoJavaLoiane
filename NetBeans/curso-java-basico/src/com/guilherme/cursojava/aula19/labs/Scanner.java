@@ -5,13 +5,16 @@
  */
 package com.guilherme.cursojava.aula19.labs;
 
-import com.guilherme.cursojava.aula15.labs.*;
-import com.guilherme.cursojava.aula13.labs.*;
+import java.io.InputStream;
 
 /**
  *
  * @author Gui e Di
  */
-public class Exercicio21 {
+class Scanner {
+
+    Scanner(InputStream in) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

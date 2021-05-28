@@ -7,6 +7,7 @@ package com.guilherme.cursojava.aula19.labs;
 
 import com.guilherme.cursojava.aula15.labs.*;
 import com.guilherme.cursojava.aula13.labs.*;
+import java.util.Scanner;
 
 /**
  *
@@ -14,22 +15,24 @@ import com.guilherme.cursojava.aula13.labs.*;
  */
 public class Exercicio13 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         
         int counter = 0; 
+        int[] a = new int[10];
         
-        int[] a = new int[11];
-        for (int i = 0; i < 11; i++){
-            a[i] = i;     
-            if (i%5 == 0){
-                counter += i;
+        for (int i = 0; i < 10; i++){
+            System.out.print("Digite um valor: ");
+            a[i] = scan.nextInt();
+            if (a[i]%5 == 0){
+                counter += a[i];
             }
         }
-        System.out.print("A = 0");
-        for (int i = 1; i < 11; i++){
+        System.out.print("A ");
+        for (int i = 0; i < 10; i++){
         System.out.print( " - " + a[i]);
         }
         
-        System.out.println("\n A soma dos valores multiplos de 5 do array resulta em = "+counter);
+        System.out.println("\nA soma dos valores multiplos de 5 do array resulta em = "+counter);
     }    
     
     

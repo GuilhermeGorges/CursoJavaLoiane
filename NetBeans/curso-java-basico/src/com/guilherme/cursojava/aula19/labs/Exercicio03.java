@@ -17,16 +17,14 @@ public class Exercicio03 {
     public static void main(String[] args) {
         
         int[] a = new int[15];
-        for (int i = 0; i < 15; i++){
+        int[] b = new int[a.length];
+        for (int i = 0; i < a.length; i++){
             a[i] = i;
-        }
-        
-        int[] b = new int[15];
-        for (int i = 0; i < 15; i++){
             b[i] = (a[i]*a[i]);
         }
         
-        for (int i = 0; i < 15; i++){
+        
+        for (int i = 0; i < a.length; i++){
         System.out.print("A = "+a[i]);
         System.out.print(" B = "+b[i]+"\n");
         }

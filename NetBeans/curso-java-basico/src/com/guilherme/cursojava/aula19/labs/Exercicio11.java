@@ -15,17 +15,17 @@ import com.guilherme.cursojava.aula13.labs.*;
 public class Exercicio11 {
     public static void main(String[] args) {
         
-        int counter = 0; 
-        
         int[] a = new int[10];
-        for (int i = 0; i < 10; i++){
+        int counter = 0;         
+        
+        for (int i = 0; i < a.length; i++){
             a[i] = i;
             if (a[i]%2 == 0){
-                counter += 1; 
+                counter++; 
             }
         }
         
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < a.length; i++){
         System.out.print("A = " + a[i]+ " ");
         }
         

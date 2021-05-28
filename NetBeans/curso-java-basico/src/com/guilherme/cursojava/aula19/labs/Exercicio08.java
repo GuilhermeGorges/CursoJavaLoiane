@@ -17,21 +17,15 @@ public class Exercicio08 {
         
         
         int[] a = new int[10];
-        for (int i = 0; i < 10; i++){
-            a[i] = i;
-        }
+        int[] b = new int[a.length];
+        int[] c = new int[a.length];
         
-        int[] b = new int[10];
-        for (int i = 0; i < 10; i++){
-            b[i] = i;
-        }
-        
-        int[] c = new int[10];
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < a.length; i++){
+            b[i] = a[i] = i;
             c[i] = a[i] * b[i];
         }
         
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < a.length; i++){
 
             System.out.print("A = "+a[i]);
             System.out.print(" B = "+b[i]);
