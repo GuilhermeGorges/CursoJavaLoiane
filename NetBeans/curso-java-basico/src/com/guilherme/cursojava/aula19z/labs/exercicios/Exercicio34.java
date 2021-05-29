@@ -16,7 +16,6 @@ public class Exercicio34 {
         java.util.Scanner scan = new java.util.Scanner(System.in);
         
         int[] vetorA = new int[10];
-        boolean par;
         String msg = "";
         
         for (int i = 0; i < vetorA.length; i++){
@@ -26,8 +25,7 @@ public class Exercicio34 {
         
         for (int i = 0; i < vetorA.length; i++){
             System.out.print("Os valores pares de 0 até "+ vetorA[i]+ " são: ");
-            par = true;
-            for (int j = 0; j<(vetorA[i]+1);j++){
+            for (int j = 0; j <= vetorA[i];j++){
                 if (j%2 == 0){
                     System.out.print(j+" - ");
                 }
