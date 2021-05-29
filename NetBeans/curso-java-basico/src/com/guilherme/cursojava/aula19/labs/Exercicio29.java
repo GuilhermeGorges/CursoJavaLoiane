@@ -22,14 +22,11 @@ public class Exercicio29 {
         int[] vetorC = new int[20];
         
         
-        for (int i = 0; i < vetorA.length; i++){
-            System.out.println("Digite o valor da posição " + i);
-            vetorA[i] = scan.nextInt();    
-            vetorC[i] = vetorA[i];
-        }
-        
         for (int i = 0, j = (vetorA.length-1); i < vetorA.length; i++, j--){
-            vetorB[i] = vetorA[j];
+            System.out.println("Digite o valor da posição " + i);
+            vetorA[i] = scan.nextInt();   
+            vetorC[i] = vetorA[i]; 
+            vetorB[j] = vetorA[i];
         }
         
         for (int i = 0, j = 10; i < vetorB.length; i++, j++){    
