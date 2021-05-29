@@ -12,5 +12,28 @@ import com.guilherme.cursojava.aula15.labs.*;
  * @author Gui e Di
  */
 public class Exercicio34 {
+    public static void main(String[] args) {
+        java.util.Scanner scan = new java.util.Scanner(System.in);
+        
+        int[] vetorA = new int[10];
+        boolean par;
+        String msg = "";
+        
+        for (int i = 0; i < vetorA.length; i++){
+            System.out.println("Digite o valor "+ (i+1));
+            vetorA[i] = scan.nextInt();
+        }
+        
+        for (int i = 0; i < vetorA.length; i++){
+            System.out.print("Os valores pares de 0 até "+ vetorA[i]+ " são: ");
+            par = true;
+            for (int j = 0; j<(vetorA[i]+1);j++){
+                if (j%2 == 0){
+                    System.out.print(j+" - ");
+                }
+            }
+            System.out.println();
+        }
+    }
     
 }
