@@ -1,7 +1,6 @@
 
 package com.guilherme.cursojava.aula15.labs;
 
-import com.guilherme.cursojava.aula13.labs.*;
 import java.util.Scanner;
 
 public class Exercicio01 {
