@@ -19,9 +19,9 @@ public class Exercicio02 {
         Random gerador = new Random();
         
         int maiorLinha5 = 0;
-        int menorLinha5 = 0;
+        int menorLinha5 = Integer.MAX_VALUE;
         int maiorColuna7 = 0;
-        int menorColuna7 = 0;
+        int menorColuna7 = Integer.MAX_VALUE;
         
         int[][] matrizM = new int[10][10];
         
@@ -40,11 +40,11 @@ public class Exercicio02 {
                 if (matrizM[4][j] < menorLinha5){
                     menorLinha5 = matrizM[4][j];
                 }
-                if (matrizM[i][9] > maiorColuna7){
-                    maiorColuna7 = matrizM[i][9];
+                if (matrizM[i][6] > maiorColuna7){
+                    maiorColuna7 = matrizM[i][6];
                 }
-                if (matrizM[i][9] < menorColuna7){
-                    menorColuna7 = matrizM[i][9];
+                if (matrizM[i][6] < menorColuna7){
+                    menorColuna7 = matrizM[i][6];
                 }
             }
         System.out.println();

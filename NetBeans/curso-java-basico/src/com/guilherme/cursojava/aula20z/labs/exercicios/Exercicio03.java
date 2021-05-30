@@ -33,12 +33,17 @@ public class Exercicio03 {
         
         for (int i = 0; i< matrizM.length; i++){
             for (int j = 0; j< matrizM.length; j++){
-                System.out.print(matrizM[i][j]+" "); 
                 if (matrizM[i][j]%2 ==0){
                     pares++;
                 } else {
                     impares++;
                 }
+            }
+        }
+        
+        for (int i = 0; i< matrizM.length; i++){
+            for (int j = 0; j< matrizM.length; j++){
+                System.out.print(matrizM[i][j]+" "); 
             }
             System.out.println();
         }
