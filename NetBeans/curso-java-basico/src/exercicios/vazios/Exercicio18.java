@@ -5,7 +5,6 @@
  */
 package exercicios.vazios;
 
-import com.guilherme.cursojava.aula20z.labs.exercicios.*;
 import com.guilherme.cursojava.aula15.labs.*;
 
 /**
