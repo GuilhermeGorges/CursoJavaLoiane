@@ -9,9 +9,4 @@ public class Exercicio01Lampada {
     String tipoLuz;
     String garantiaMeses; 
     String[] tipos; 
-        
-    int vidaUtil;
-    String eficienciaLuminosa;
-    int anguloDeAbertura;
-    String marca;
 }

@@ -1,16 +1,22 @@
 package com.guilherme.cursojava.aula24orientacaoaobjetos.labs;
 
+import java.util.Date;
 
-public class Exercicio04LivroDeBiblioteca {    
+
+public class Exercicio04LivroDeBiblioteca {  
     String nome;
     String autor;
+    int numeroPaginas;
+    int anoLancamento;
     String editora;
     String idioma;
-    String formato;
-    int numeroPaginas;
+    String formato;   
+    
     int codigoDoLivro;
     boolean disponibilidade;
+    Date dataEntrega;
     String nomeDoUltimoEmprestimo;
     String nomeDoLocador;
+    
     
 }
