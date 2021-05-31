@@ -1,4 +1,4 @@
-package com.guilherme.cursojava.aula24orientacaoaobjetos;
+package com.guilherme.cursojava.aula25orientacaoaobjetos_metodos_semretorno;
 
 public class TesteCarro {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class TesteCarro {
         
         System.out.println(van.marca);
         System.out.println(van.modelo);
-        
+        van.exibirAutonomia();
         
         Carro fusca = new Carro();
         van. marca = "Volkswagen";

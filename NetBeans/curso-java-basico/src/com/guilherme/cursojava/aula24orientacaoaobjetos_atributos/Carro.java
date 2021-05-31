@@ -1,5 +1,5 @@
 
-package com.guilherme.cursojava.aula24orientacaoaobjetos;
+package com.guilherme.cursojava.aula24orientacaoaobjetos_atributos;
 
 public class Carro {
    

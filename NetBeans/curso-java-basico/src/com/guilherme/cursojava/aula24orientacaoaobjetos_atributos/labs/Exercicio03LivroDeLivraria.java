@@ -1,4 +1,4 @@
-package com.guilherme.cursojava.aula24orientacaoaobjetos.labs;
+package com.guilherme.cursojava.aula24orientacaoaobjetos_atributos.labs;
 
 
 public class Exercicio03LivroDeLivraria {

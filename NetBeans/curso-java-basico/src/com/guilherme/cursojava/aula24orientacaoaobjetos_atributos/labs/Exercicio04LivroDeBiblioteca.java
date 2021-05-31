@@ -1,4 +1,4 @@
-package com.guilherme.cursojava.aula24orientacaoaobjetos.labs;
+package com.guilherme.cursojava.aula24orientacaoaobjetos_atributos.labs;
 
 import java.util.Date;
 
