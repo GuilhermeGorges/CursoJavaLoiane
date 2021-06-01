@@ -15,7 +15,7 @@ public class Exercicio02 {
         jesus.nome = "Jesus";
         jesus.numeroDaConta = "123456";
         jesus.agencia = "4321";
-        jesus.especial = false;
+        jesus.especial = true;
         jesus.limiteEspecial = 500;
         jesus.saldo = 2000;
         
@@ -45,7 +45,7 @@ public class Exercicio02 {
                     jesus.retirarDinheiro(valorSaque);
                     break;
                 }
-                case 4 : jesus.usandoChequeEspecial();break; // consultar cheque especial
+                case 4 : jesus.verificaUsandoChequeEspecial();break; // consultar cheque especial
             } 
         } while (!exit);
         

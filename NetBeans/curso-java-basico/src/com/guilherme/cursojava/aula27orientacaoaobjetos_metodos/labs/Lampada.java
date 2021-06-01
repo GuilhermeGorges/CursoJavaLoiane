@@ -1,7 +1,5 @@
 package com.guilherme.cursojava.aula27orientacaoaobjetos_metodos.labs;
 
-import com.guilherme.cursojava.aula24orientacaoaobjetos_atributos.labs.*;
-
 public class Lampada {
     
     String modelo;
@@ -14,15 +12,33 @@ public class Lampada {
     boolean lampadaLigada;
     
     
-    boolean ligarLampada(){
+    void ligarLampada(){
+        lampadaLigada = true;
         System.out.println("A lampada está ligada");
-        return lampadaLigada = true;
+               
+    }
+    
+    void desligarLampada(){
+        lampadaLigada = false;
+        System.out.println("A lampada está desligada");
         
     }
     
-    boolean ligarDeslidaga(){
-        System.out.println("A lampada está desligada");
-        return lampadaLigada = false;
-        
+    void mostrarEstado(){
+        if(lampadaLigada){
+            System.out.println("Lâmpada está ligada!");
+        } else {
+            System.out.println("Lâmpada está desligada!");
+        }
     }
+    
+    void mudarEstado(){
+        if (lampadaLigada){
+            desligarLampada();
+        } else {
+            ligarLampada();            
+        }
+    }
+    
+    
 }
