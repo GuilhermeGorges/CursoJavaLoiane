@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.guilherme.cursojava.aula21foreach;
+package com.guilherme.cursojava.aula28pacotes;
+
+import com.guilherme.cursojava.aula25orientacaoaobjetos_metodos_semretorno.Carro;
 
 /**
  *
  * @author Gui e Di
  */
-public class DebugNetbeans {
-    
+public class Pacotes {
     public static void main(String[] args) {
+        Carro carro;
+        Carro carro2;
         
-        int[] notas = new int[3];
         
-    //    for (int i = 0: i < 4; i++){
-     //       notas[i] = i;
-      //  }
+        
+        
     }
 }
