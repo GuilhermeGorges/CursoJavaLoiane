@@ -23,5 +23,12 @@ public class Exer01 {
         imprimirValor();
         Contador.decrementar();
         imprimirValor();
+        
+        Contador c1 = new Contador();
+        Contador c2 = new Contador();
+        Contador c3 = new Contador();
+        
+        
+        imprimirValor();
     }
 }
