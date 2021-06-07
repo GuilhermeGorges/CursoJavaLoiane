@@ -80,11 +80,27 @@ public class Curso {
         if (alunos != null){
             System.out.println("---Alunos---");
             for (Aluno aluno: alunos){
-                info += aluno.obterInfo();
+                if (aluno != null){
+                    info += aluno.obterInfo();
+                    info += "\n";
+                }
             }
+            
+            info += "\n Média da turna = " + obterMediaTurma();
         }
         
         return info;
+    }
+    
+    public double obterMediaTurma(){
+        double soma = 0;
+        for (Aluno aluno : alunos){
+            if (aluno != null){
+                soma += aluno.onterMedia();
+            }
+        }
+        
+        return soma/alunos.length;
     }
     
 }

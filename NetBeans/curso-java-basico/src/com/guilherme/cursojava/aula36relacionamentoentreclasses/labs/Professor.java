@@ -57,6 +57,6 @@ public class Professor {
     }
             
     public String obterInfo(){
-        return "Professor = " + nome;
+        return "Professor = " + nome + "\n";
     }
 }
