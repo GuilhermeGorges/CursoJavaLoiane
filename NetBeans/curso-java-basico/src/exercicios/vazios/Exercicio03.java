@@ -6,8 +6,6 @@
  */
 package exercicios.vazios;
 
-import com.guilherme.cursojava.aula15.labs.*;
-
 /**
  *
  * @author Gui e Di
