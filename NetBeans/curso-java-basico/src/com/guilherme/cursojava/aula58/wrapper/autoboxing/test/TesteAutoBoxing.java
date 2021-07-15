@@ -35,13 +35,13 @@ public class TesteAutoBoxing {
         Integer num14 = num13 / num9;
 
         //mau uso
-        Double a, b, c;
+        /*Double a, b, c;
         a = 10.0;
         b = 12.2;
         c = 4.7;
 
         Double media = (a + b + c) / 3;
-        System.out.println(media);
+        System.out.println(media);*/
 
     }
 }
