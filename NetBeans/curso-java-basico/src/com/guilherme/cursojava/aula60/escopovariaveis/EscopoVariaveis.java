@@ -55,7 +55,7 @@ public class EscopoVariaveis {
         System.out.println(j); //j tem valor 10
     }
 
-    public void maiUmTeste() {
+    public void maisUmTeste() {
 
         boolean flag = true;
 
@@ -71,7 +71,7 @@ public class EscopoVariaveis {
         //System.out.println(umaVariavel); //erro de compilação
     }
 
-    public void maiUmOutroTeste(int num) {
+    public void maisUmOutroTeste(int num) {
 
         int total = 0;
 
