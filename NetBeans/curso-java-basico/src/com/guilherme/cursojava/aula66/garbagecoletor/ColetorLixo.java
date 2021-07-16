@@ -1,4 +1,4 @@
-package com.guilherme.cursojava.aula65.annotations;
+package com.guilherme.cursojava.aula66.garbagecoletor;
 
 import com.guilherme.cursojava.aula61.Contato;
 
