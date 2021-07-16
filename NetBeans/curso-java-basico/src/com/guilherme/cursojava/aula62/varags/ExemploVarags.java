@@ -21,9 +21,6 @@ public class ExemploVarags {
         
         
         System.out.println(soma(1,2,3,4,5,6,7,8,9,10));
-        
-        
-        
     }
     
     static int soma(int a, int b){
@@ -44,7 +41,7 @@ public class ExemploVarags {
         return total;
     }
     
-    static int soma(Integer... vetor){
+    static int soma(int a, int b, Integer... vetor){
         int total = 0;
         
         for (int i = 0; i<vetor.length; i++){
