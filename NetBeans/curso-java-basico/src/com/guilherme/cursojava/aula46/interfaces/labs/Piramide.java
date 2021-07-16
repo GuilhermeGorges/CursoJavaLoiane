@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula46.interfaces.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Piramide extends Figura3D {
     private double altura;

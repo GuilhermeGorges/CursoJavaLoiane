@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula49.excecaofinally;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class FinallyPegadinha {
     public static void main(String[] args) {

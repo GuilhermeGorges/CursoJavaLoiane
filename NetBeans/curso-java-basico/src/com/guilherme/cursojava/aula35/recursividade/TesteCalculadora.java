@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula35.recursividade;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteCalculadora {
     public static void main(String[] args) {

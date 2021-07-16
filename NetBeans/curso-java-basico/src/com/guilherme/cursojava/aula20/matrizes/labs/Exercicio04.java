@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exercicio04 {
     public static void main(String[] args) {

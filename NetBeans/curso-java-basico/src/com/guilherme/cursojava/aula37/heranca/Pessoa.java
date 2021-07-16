@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula37.heranca;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Pessoa {
     private String nome;

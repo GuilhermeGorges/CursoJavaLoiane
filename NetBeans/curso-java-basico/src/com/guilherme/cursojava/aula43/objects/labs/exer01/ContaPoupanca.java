@@ -9,7 +9,7 @@ import java.util.Calendar;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class ContaPoupanca extends ContaBancaria{
     private int diaRendimento;

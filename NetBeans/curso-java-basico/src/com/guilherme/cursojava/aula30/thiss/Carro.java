@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula30.thiss;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Carro {
     // atributos  

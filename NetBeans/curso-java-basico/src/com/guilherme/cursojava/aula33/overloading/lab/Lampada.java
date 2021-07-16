@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula33.overloading.lab;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Lampada {
         

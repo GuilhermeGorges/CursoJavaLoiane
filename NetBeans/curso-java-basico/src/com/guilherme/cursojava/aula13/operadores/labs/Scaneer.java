@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula13.operadores.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 class Scaneer {
     

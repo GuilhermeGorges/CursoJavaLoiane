@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula46.interfaces.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public abstract class Figura3D extends FiguraGeometrica implements DimensaoSuperficial, DimensaoVolumetrica{
     

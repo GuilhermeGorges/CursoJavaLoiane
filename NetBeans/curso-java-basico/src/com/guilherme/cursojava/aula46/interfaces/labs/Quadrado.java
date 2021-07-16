@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula46.interfaces.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Quadrado extends Figura2D {
     private int lado;

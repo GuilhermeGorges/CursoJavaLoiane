@@ -4,7 +4,7 @@ package com.guilherme.cursojava.aula31.modificadoresdeacesso;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Carro {
     // atributos  

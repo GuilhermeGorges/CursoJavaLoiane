@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula52.excecaocriando;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class DivisaoNaoExata extends Exception{
     private int num;

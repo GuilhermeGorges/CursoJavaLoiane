@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula43.objects.labs.exer01;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class ContaEspecial extends ContaBancaria{
     private double limiteEspecial;

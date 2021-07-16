@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula39.modificadoresdeacesso;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Pessoa {
     private String nome;

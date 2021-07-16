@@ -6,7 +6,7 @@
 package com.guilherme.cursojava.aula39.modificadoresdeacesso;
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Professor extends Pessoa {
     private Double salario;

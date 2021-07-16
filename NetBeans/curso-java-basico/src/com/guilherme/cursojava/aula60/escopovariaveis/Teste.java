@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula60.escopovariaveis;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Teste {
 

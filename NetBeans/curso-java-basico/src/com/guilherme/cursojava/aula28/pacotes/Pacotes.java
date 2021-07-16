@@ -9,7 +9,7 @@ import com.guilherme.cursojava.aula25.orientacaoaobjetosmetodossemretorno.Carro;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Pacotes {
     public static void main(String[] args) {

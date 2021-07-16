@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula50.excecaostacktracethrows;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exeption {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula40.polimorfismo;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Pessoa {
     private String nome;

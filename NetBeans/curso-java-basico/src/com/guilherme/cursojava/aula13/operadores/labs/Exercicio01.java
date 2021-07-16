@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula13.operadores.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exercicio01 {
     public static void main(String[] args) {

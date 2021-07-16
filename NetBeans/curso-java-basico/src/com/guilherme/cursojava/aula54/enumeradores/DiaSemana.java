@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula54.enumeradores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public enum DiaSemana {
     SEGUNDA(1), TERCA(2), QUARTA(3), QUINTA(4), SEXTA(5), SABADO(6), DOMINGO(7);

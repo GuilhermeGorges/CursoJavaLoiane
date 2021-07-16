@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula40.polimorfismo;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Professor extends Pessoa {
     private Double salario;

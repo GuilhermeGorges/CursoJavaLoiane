@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula16.loopwhile;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class LoopWhile {
     public static void main(String[] args) {

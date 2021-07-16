@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula62.varags;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class ExemploVarags {
     public static void main(String[] args) {

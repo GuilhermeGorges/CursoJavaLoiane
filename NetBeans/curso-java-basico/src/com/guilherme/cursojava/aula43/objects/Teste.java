@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula43.objects;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Teste {
     public static void main(String[] args) {

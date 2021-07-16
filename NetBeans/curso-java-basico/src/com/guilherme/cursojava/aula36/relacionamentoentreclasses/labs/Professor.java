@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula36.relacionamentoentreclasses.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Professor {
     private String nome;

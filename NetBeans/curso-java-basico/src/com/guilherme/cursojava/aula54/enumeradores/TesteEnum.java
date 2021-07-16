@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula54.enumeradores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteEnum {
     public static void main(String[] args) {

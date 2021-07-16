@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula13.operadores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class RelationalOperators {
     public static void main(String[] args) {

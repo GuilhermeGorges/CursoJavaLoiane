@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula38.ssuper;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Pessoa {
     private String nome;

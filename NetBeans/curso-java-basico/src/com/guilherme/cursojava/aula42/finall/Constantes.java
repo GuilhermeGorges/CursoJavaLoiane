@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula42.finall;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Constantes {
     public static final String URL_BLOG = "www.google.com"; // declaração de constante no java 

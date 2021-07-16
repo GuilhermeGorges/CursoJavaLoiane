@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula38.ssuper;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Professor extends Pessoa {
     private Double salario;

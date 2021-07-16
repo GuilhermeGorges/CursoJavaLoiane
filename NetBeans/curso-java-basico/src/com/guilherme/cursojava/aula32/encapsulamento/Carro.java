@@ -4,7 +4,7 @@ package com.guilherme.cursojava.aula32.encapsulamento;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Carro {
     // atributos  

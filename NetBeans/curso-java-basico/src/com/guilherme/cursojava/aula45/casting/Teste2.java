@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula45.casting;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Teste2 {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula53.enumeradores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public enum DiaSemana {
     

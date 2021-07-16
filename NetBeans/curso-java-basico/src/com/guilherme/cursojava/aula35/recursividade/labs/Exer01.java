@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula35.recursividade.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exer01 {
     public static void main(String[] args) {

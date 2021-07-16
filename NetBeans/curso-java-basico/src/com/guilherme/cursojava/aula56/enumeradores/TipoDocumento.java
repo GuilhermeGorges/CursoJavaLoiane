@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula56.enumeradores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public enum TipoDocumento {
     

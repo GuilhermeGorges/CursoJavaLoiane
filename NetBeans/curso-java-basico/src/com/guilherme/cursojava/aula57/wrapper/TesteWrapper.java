@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula57.wrapper;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteWrapper {
     public static void main(String[] args) {

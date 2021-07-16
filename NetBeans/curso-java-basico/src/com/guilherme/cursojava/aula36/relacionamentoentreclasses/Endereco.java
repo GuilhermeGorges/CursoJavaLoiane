@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula36.relacionamentoentreclasses;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Endereco {
     private String nomeRua;

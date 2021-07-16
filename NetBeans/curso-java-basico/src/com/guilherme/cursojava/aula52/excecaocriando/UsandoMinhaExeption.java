@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula52.excecaocriando;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class UsandoMinhaExeption {
     public static void main(String[] args) {

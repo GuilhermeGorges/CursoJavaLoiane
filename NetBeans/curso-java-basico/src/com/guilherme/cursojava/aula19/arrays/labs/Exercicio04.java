@@ -10,7 +10,7 @@ import static java.lang.Math.sqrt;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exercicio04 {
     public static void main(String[] args) {

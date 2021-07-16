@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula44.interfaces;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Cavalo extends Mamifero  implements AnimalDomesticado {
 

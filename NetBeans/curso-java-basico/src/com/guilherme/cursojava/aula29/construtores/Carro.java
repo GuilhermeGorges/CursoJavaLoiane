@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula29.construtores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Carro {  
    // atributos  

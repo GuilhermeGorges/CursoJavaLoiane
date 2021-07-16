@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula46.heranca;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public interface SqlDML{
 

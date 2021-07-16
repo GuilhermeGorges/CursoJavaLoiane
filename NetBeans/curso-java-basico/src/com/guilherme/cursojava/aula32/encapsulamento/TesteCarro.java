@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula32.encapsulamento;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteCarro {
     public static void main(String[] args) {

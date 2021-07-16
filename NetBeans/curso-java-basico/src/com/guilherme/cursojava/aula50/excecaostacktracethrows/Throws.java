@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Throws {
     public static void main(String[] args) {

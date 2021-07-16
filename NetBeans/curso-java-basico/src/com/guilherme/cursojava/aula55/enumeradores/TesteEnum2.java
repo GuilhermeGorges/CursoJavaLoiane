@@ -9,7 +9,7 @@ import com.guilherme.cursojava.aula53.enumeradores.DiaSemana;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteEnum2 {
 

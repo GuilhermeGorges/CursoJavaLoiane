@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula21.foreach;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class DebugNetbeans {
     

@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula58.wrapper.autoboxing.test;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteAutoBoxing {
 

@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula37.heranca;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Aluno extends Pessoa {
     private String curso;

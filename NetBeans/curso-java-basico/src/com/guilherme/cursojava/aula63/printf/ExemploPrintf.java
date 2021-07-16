@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula63.printf;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class ExemploPrintf {
 

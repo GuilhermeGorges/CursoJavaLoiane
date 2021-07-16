@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula17.loopfor;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class LoopFor {
     public static void main(String[] args) {

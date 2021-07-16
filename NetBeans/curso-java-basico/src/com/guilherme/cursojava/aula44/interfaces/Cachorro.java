@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula44.interfaces;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstimacao {
     private int tamanho;

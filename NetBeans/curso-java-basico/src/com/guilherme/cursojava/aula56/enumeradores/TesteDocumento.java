@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula56.enumeradores;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class TesteDocumento {
     public static void main(String[] args) {

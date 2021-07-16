@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula36.relacionamentoentreclasses;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Telefone {
     private String tipo;

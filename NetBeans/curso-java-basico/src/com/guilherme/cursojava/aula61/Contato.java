@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula61;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Contato {
     

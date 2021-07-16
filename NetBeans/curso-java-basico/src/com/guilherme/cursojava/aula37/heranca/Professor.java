@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula37.heranca;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Professor extends Pessoa {
     private Double salario;

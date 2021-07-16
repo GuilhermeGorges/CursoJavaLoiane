@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula35.recursividade;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Calculadora {
     public static int fatorialNaoRecursivo(int num){       // exer 03 

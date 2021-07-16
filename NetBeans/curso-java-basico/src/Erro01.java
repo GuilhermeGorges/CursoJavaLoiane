@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Erro01 {
     public static void main(String[] args) {

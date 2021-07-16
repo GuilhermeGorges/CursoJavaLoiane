@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula19.arrays.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exercicio33 {
     public static void main(String[] args) {

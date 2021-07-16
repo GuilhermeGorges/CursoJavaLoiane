@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula64.classesaninhadas;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Externa2 {
     

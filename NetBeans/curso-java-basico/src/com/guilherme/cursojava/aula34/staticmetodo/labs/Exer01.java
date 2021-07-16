@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula34.staticmetodo.labs;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Exer01 {
     

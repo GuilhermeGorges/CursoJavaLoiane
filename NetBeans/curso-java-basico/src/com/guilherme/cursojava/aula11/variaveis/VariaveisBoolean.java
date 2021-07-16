@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula11.variaveis;
 
 /**
  *
- * @author Gui e Di
+ *   
  */
 public class VariaveisBoolean {
     public static void main(String[] args) {

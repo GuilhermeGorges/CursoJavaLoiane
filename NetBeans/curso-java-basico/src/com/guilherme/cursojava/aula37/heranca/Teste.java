@@ -7,7 +7,7 @@ package com.guilherme.cursojava.aula37.heranca;
 
 /**
  *
- * @author Gui e Di
+ * 
  */
 public class Teste {
     public static void main(String[] args) {
