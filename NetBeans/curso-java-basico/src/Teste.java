@@ -1,27 +1,18 @@
-
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.util.Calendar;
-import java.util.Date;
+import java.io.BufferedReader;
+import java.util.Scanner;
 
 public class Teste {
 
     public static void main(String[] args) {
-
-        /*
-        Date data = new Date();
-        SimpleDateFormat  formatter = new SimpleDateFormat("hh:MM:ss:mmm ");
-        
-        String dataFormatada = formatter.format(data);
-        System.out.println(data);
-        System.out.println(dataFormatada);
-        */
-        
-        LocalDate hoje = LocalDate.now();
-        System.out.println(hoje);
-        
-        LocalTime time = LocalTime.now();
-        System.out.println(time);
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+        // Write your code here.1
+        System.out.println(i);
+        System.out.println(d);
+        System.out.println(s);
     }
+
 }

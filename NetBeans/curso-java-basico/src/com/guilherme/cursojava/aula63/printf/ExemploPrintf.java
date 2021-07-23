@@ -32,6 +32,7 @@ public class ExemploPrintf {
         System.out.printf("f", pontoFlutuante);
 
         System.out.println();
+        System.out.println("zzzzz");
 
         String olaMundo = "Olá, Mundo!";
         System.out.printf("%20s", olaMundo);
@@ -61,8 +62,10 @@ public class ExemploPrintf {
         System.out.println();
 
         System.out.printf("%.2f", pontoFlutuante);
+        System.out.println();
 
         testeMaisCompleto();
+        System.out.println();
 
     }
 
