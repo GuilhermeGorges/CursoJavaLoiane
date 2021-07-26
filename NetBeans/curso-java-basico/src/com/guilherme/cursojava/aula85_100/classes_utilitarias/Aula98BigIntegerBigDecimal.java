@@ -7,11 +7,13 @@ public class Aula98BigIntegerBigDecimal {
 
     public static void main(String[] args) {
 
+        // não é preciso com calculos 
         double a = 0.03;
         double b = 0.04;
         double c = b - a;
         System.out.println(c);
 
+        // big decimal para trabalhar com double ou float
         BigDecimal _a = new BigDecimal("0.03");
         BigDecimal _b = new BigDecimal("0.04");
         BigDecimal _c = _b.subtract(_a);
@@ -25,6 +27,7 @@ public class Aula98BigIntegerBigDecimal {
 
         System.out.println(bd1.divide(new BigDecimal(2)));
 
+        // BigInteger para trabalhar com inteiros 
         BigInteger bi = new BigInteger("10000000000000000000");
         System.out.println(bi);
 

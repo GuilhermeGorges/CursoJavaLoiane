@@ -6,7 +6,7 @@ public class Aula100Jars {
 
     public static void main(String[] args) {
 
-        System.out.println(StringUtils.capitalize("Guilherme"));
+        System.out.println(StringUtils.capitalize("Guilherme Gorges"));
 
     }
 

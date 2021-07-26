@@ -14,14 +14,17 @@ public class Aula97DecimalFormat {
         // df.applyPattern(padrao);
         System.out.println(df.format(1234567890.123));
 
-        DecimalFormatSymbols dfs = new DecimalFormatSymbols(new Locale("pt", "Brazil"));
-        dfs.setDecimalSeparator(',');
-        dfs.setGroupingSeparator('.');
+        // formatando padrão eua
+        DecimalFormatSymbols dfs = new DecimalFormatSymbols(new Locale("en", "USA"));
+        dfs.setDecimalSeparator('.');
+        dfs.setGroupingSeparator(',');
 
+        
         String padrao2 = "###,###.##";
         df = new DecimalFormat(padrao2, dfs);
         System.out.println(df.format(1234567890.123));
 
+        // aumentando numero de grupos
         String padrao3 = "###,###,###.##";
         df = new DecimalFormat(padrao3, dfs);
         df.setGroupingSize(4);

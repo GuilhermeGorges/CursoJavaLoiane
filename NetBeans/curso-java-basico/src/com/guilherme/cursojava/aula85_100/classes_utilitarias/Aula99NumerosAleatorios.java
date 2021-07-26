@@ -12,7 +12,7 @@ public class Aula99NumerosAleatorios {
 
         System.out.println(aleatorio.nextInt());
 
-        System.out.println(aleatorio.nextInt(5 + 1));
+        System.out.println(aleatorio.nextInt(10 + 1));
     }
 
 }
